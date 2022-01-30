@@ -1,0 +1,64 @@
+
+body{
+    font-family: 'Lato', sans-serif;
+
+}
+h2{
+    font-weight: 400;
+}
+p{
+    font-weight: 300;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+.columna{
+    background: rgb(228, 228, 228);
+    color: #333;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(150, 150, 149);
+    width: 23%;
+    box-sizing: border-box;
+
+}
+.precio{
+    font-size: 50px;
+    color: rgba(0, 167, 233, 0.835);
+}
+.btn-precio{
+    background: salmon;
+    display: block;
+    padding: 10px;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 3px;
+    border-radius: 3px;
+}
+.btn-precio:hover{
+background: rgb(194, 92, 81);
+}
+
+@media (max-width: 1070px){
+    .columna{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 600px){
+.columna{
+    width: 100%;
+    margin-bottom: 20px;
+}
+}
